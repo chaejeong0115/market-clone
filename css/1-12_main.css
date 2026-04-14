@@ -1,0 +1,59 @@
+main {
+  /* background-color: orange; */
+  margin-top: 67px;
+  margin-bottom: 70.8px;
+}
+
+.item-list {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #ededef;
+}
+
+.item-list img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.item-list__info {
+  padding: 15px 20px;
+}
+
+.item-list__info > div {
+  margin-bottom: 15px;
+}
+.item-list__info-title {
+  /* background-color: #ddd; */
+  font-size: 30px;
+
+  overflow: hidden;
+  /* 을 사용해 영역을 감출 것 */
+
+  text-overflow: ellipsis;
+  /* 로 ... 을 만들기  */
+  white-space: nowrap;
+}
+
+.item-list__info-meta {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.item_list__info-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.write-btn {
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  background-color: #fe6f0f;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
