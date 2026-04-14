@@ -3,11 +3,6 @@
 @import url(1-12_main.css);
 @import url(1-12_footer.css);
 
-@media screen and (max-width: 600px) {
-  .media-info-msg {
-    opacity: 0;
-  }
-}
 .media-info-msg {
   position: fixed;
   top: 0;
@@ -19,4 +14,10 @@
   align-items: center;
   background-color: #fff;
   font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .media-info-msg {
+    display: none;
+  }
 }
