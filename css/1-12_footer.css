@@ -25,6 +25,22 @@ footer {
   width: 30px;
 }
 
+@keyframes icons-둥둥 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons:hover img {
+  animation: 1s icons-둥둥;
+}
+
 .footer-icons span {
   margin-top: 10px;
   font-size: 10px;
