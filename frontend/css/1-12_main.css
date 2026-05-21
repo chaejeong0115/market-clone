@@ -10,12 +10,19 @@ main {
   border-bottom: 1px solid #ededef;
 }
 
-.item-list img {
+.item-list__img {
   width: 150px;
   height: 150px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   margin-left: 20px;
+}
+
+.item-list__img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .item-list__info {
@@ -58,6 +65,7 @@ main {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
   transition: all 1s ease-in-out;
+  text-decoration: none;
 }
 
 .write-btn:hover {
